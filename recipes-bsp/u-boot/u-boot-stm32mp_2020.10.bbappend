@@ -6,7 +6,7 @@ require recipes-bsp/u-boot/u-boot-mender.inc
 SRC_URI_remove = "file://0006-env-Kconfig-Add-descriptions-so-environment-options-.patch"
 
 SRC_URI_append = " \
-            file://0001-Mender-Configs-for-U-Boot.patch \
+            file://0001-Mender-Configs-for-U-Boot-viotas-poc.patch \
             file://0002-remove-env_get_location-override.patch \
             "
 
